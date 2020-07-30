@@ -26,7 +26,7 @@ function randomGame(){
 
 //number3
 function isEven(num){
-    if(num % 2 == 0 || num <= 1){
+    if(num % 2 == 0){
    return true;
     }else{
    return false;
@@ -47,7 +47,7 @@ function isOdd(num){
 //number5
 function isPrime(num){
     for(var i=2; i<num; i++){
-     if(num % i == 0){
+     if(num % i == 0 || num <= 1){
        return false;
      } else{
         return true;
